@@ -100,19 +100,3 @@ int main(){
 		printf("Result: %lf\n", q[2]);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
