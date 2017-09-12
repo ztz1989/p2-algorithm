@@ -72,7 +72,7 @@ int main(){
 				if (q1 > q[i-1] && q1 < q[i+1])
 					q[i] = q1;
 				else
-					q[i] = q[i] + d*(q[i+d] - q[i])/(n[i+d]-n[i]);
+					q[i] = q[i] + (float)d*(q[i+d] - q[i])/(n[i+d]-n[i]);
 	
 				printf("d=%d index %d %f\n", d, i, (float)d/(n[i+1]-n[i-1]));
 				
